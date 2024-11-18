@@ -26,6 +26,7 @@
     <div class="cursor"></div>
     <div class="cursor2"></div>
 
+<?php //echo "new commit ..."; ?>
     <?php include("includes/header.php"); ?>
 
     <!--==============================
