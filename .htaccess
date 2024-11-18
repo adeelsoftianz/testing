@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^softianz.com$
+#RewriteRule (.*) https://www.softianz.com/$1 [R=301,L]
+
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^.*$ http://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+RewriteRule ^blog$ /DG/blog.php [L]
+RewriteRule ^blog/(.*)$ /DG/blog-details.php?blog_url_slug=$1 [L]
+
+#RewriteRule ^author/$ /DG/author.php [L]
+#RewriteRule ^author/(.*)$ /DG/author_detail.php?author_rw_url=$1 [L]
+
+RewriteRule ^([^/.]+)$ /DG/$1.php [L]
+
+ErrorDocument 404 /404

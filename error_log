@@ -1,0 +1,11 @@
+[15-Mar-2024 19:33:35 UTC] PHP Warning:  Undefined array key "subject" in /home/xtsabgdsigz1/public_html/mail.php on line 9
+[15-Mar-2024 21:52:02 UTC] PHP Warning:  Undefined array key "subject" in /home/xtsabgdsigz1/public_html/mail.php on line 9
+[19-Mar-2024 15:38:06 UTC] PHP Warning:  Undefined array key "subject" in /home/xtsabgdsigz1/public_html/mail.php on line 9
+[09-Apr-2024 05:35:35 UTC] PHP Warning:  Undefined array key "subject" in /home/xtsabgdsigz1/public_html/mail.php on line 9
+[09-Apr-2024 05:35:37 UTC] PHP Warning:  Undefined array key "subject" in /home/xtsabgdsigz1/public_html/mail.php on line 9
+[11-Apr-2024 18:56:41 UTC] PHP Warning:  Undefined array key "subject" in /home/xtsabgdsigz1/public_html/mail.php on line 9
+[14-Apr-2024 11:57:15 UTC] PHP Warning:  Undefined array key "form_type" in /home/xtsabgdsigz1/public_html/mail.php on line 6
+[14-Apr-2024 11:57:15 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_a_quote_form" in /home/xtsabgdsigz1/public_html/mail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xtsabgdsigz1/public_html/mail.php on line 9
